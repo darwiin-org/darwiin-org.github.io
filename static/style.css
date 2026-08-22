@@ -6,13 +6,13 @@
   --bg-primary: #f5f5f7;
   --bg-surface: rgba(255, 255, 255, 0.72);
   --bg-card: rgba(255, 255, 255, 0.85);
-  
+
   --text-main: #1d1d1f;
   --text-muted: #86868b;
-  
+
   --accent: #0066cc;
   --accent-hover: #0077ed;
-  
+
   --border-subtle: rgba(0, 0, 0, 0.08);
   --border-glass: rgba(255, 255, 255, 0.4);
 
@@ -29,16 +29,16 @@
     --bg-primary: #000000;
     --bg-surface: rgba(28, 28, 30, 0.72);
     --bg-card: rgba(44, 44, 46, 0.85);
-    
+
     --text-main: #f5f5f7;
     --text-muted: #86868b;
-    
+
     --accent: #2997ff;
     --accent-hover: #47a3ff;
-    
+
     --border-subtle: rgba(255, 255, 255, 0.12);
     --border-glass: rgba(255, 255, 255, 0.1);
-    
+
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
   }
@@ -76,11 +76,11 @@ h1, h2, h3, h4 {
 }
 
 p {
-      line-height: 1.6; 
+      line-height: 1.6;
 }
 
 ul li {
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 
 .terminal-section {
@@ -348,7 +348,7 @@ pre {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-  
+
   .card:hover {
     transform: none;
   }

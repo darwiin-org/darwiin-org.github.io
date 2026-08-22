@@ -36,4 +36,3 @@ foreach page $PAGES {
 # 3. Sync static assets to output directory
 puts "Syncing static assets..."
 copy_static_assets "static" "output"
-

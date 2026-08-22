@@ -20,5 +20,5 @@ The build system utilizes GNU Make. To compile the project from source, execute:
 ### Generating distfiles
 
 The distfiles utilize build.tcl. To generate the distfiles, execute:
-	
+
 	./build.tcl

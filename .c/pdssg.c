@@ -14,7 +14,7 @@ typedef struct {
 static PageMeta parse_frontmatter(char *input) {
     PageMeta meta;
     char *fm_start, *fm_end, *cursor;
-    
+
     memset(&meta, 0, sizeof(PageMeta));
     strcpy(meta.page_name, "PureDarwin");
 
@@ -66,9 +66,9 @@ int main(int argc, char **argv) {
     long file_size;
     PageMeta meta;
     Tcl_Interp *interp;
-    
+
     /* In-memory Tcht template evaluator script */
-    const char *tcl_render_script = 
+    const char *tcl_render_script =
         "proc include {path} {\n"
         "    if {[file exists $path]} {\n"
         "        set f [open $path r]\n"

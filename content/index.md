@@ -41,17 +41,17 @@ load_init_program: attempting to load /sbin/launchd
 ** The volume PureDarwin-10.13.3 appears to be OK.
 hfs: Removed 0 orphaned / unlinked files and 12 directories
 /sbin/launchd: line 91: sync: command not found
-bash-3.2# 
-bash-3.2# 
-bash-3.2# 
+bash-3.2#
+bash-3.2#
+bash-3.2#
 bash-3.2#</pre>
     </div>
 </div>
 
 
-Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable. 
+Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable.
 
-The project's main focus is providing useful documentation and making it easier for developers and open-source enthusiasts to engage with Darwin. 
+The project's main focus is providing useful documentation and making it easier for developers and open-source enthusiasts to engage with Darwin.
 
 
 # Test Build
@@ -63,6 +63,3 @@ Due to the lack of proprietary macOS components, the community must develop alte
 <small><i>Based on Darwin 17, which corresponds to macOS High Sierra (10.13.x).</i></small>
 
 <a href="/download.html" class="btn btn-primary">Download PureDarwin (17.4 Test)</a>
-
-
-

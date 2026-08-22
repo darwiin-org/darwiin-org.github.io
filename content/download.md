@@ -1,5 +1,5 @@
 ---
-name: PureDarwin 17.4 Test Build 
+name: PureDarwin 17.4 Test Build
 ---
 
 # PureDarwin 17.4 Test Build
@@ -18,10 +18,10 @@ name: PureDarwin 17.4 Test Build
 - To run this, first extract the image with xz (<code>xz -d pd_17_4.vmdk.xz</code>).
 - Then, start the VMDK with QEMU: <code>qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2 -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=vmdk,file=pd_17_4.vmdk</code>
 
-### Image 
+### Image
 
 - To run this, first extract the image with xz (<code>xz -d pd_17_4.vmdk.xz</code>).
-- Then convert to VDMK to a raw image with <code>qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.img</code>. 
+- Then convert to VDMK to a raw image with <code>qemu-img convert -f vmdk pd_17_4.vmdk -O raw pd_17_4.img</code>.
 - Then, start the image with QEMU: <code>qemu-system-x86_64 -m 8192 -cpu Penryn -smp 2 -netdev user,id=network0 -device rtl8139,netdev=network0 -serial stdio -drive format=raw,file=pd_17_4.img</code>
 
 
@@ -82,5 +82,3 @@ We would like to thank:
 - Ethan Sherriff - libsystem_ethan@pd-devs.org
 - Stuart Cook - sjc@pd-devs.org
 - William Kent - wjk@pd-devs.org
-
-
