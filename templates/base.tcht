@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$page_name — PureDarwin</title>
+  <title>$page_name — darw.f.e.</title>
   <link rel="icon" type="image/png" href="/icns/darwin.png">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav-container">
-      <a class="brand" href="/" aria-label="PureDarwin Home">
-        <img src="/icns/darwin.png" alt="PureDarwin Logo" class="brand-icon">
+      <a class="brand" href="/" aria-label="darw.f.e. Home">
+        <img src="/icns/darwin.png" alt="darw.f.e. Logo" class="brand-icon">
       </a>
       <div class="nav-links">
         <a href="/index.html">Home</a>
         <a href="/news.html">News</a>
         <a href="/download.html">Download</a>
-        <a href="https://github.com/PureDarwin">GitHub</a>
+        <a href="https://github.com/darwfe">GitHub</a>
         <a href="/archive.html">Archive</a>
       </div>
     </nav>
@@ -29,10 +29,11 @@
 
   <footer class="site-footer">
     <div class="footer-content">
-      <p>&copy; 2026 PureDarwin Developers <a href="https://discord.gg/9kz8XXRRcT">(contact)</a>. All rights reserved.</p>
+      <p>&copy; 2026 darw.f.e. Developers <a href="https://discord.gg/9kz8XXRRcT">(contact)</a>. All rights reserved.</p>
+      <small>Hexley the platypus is &copy; 2000 Jon Hooper <a href="https://hexley.com">(hexley.com)</a>. All rights reserved.</small>
       <small>
-      PureDarwin and the PureDarwin website are independent resources and are not affiliated with, endorsed
-            by, or sponsored by Apple Inc. Apple, Macintosh, macOS, and related trademarks and logos are the property of
+      darw.f.e. and the darw.f.e. website are independent resources and are not affiliated with, endorsed
+            by, or sponsored by PureDarwin, nor is it by Apple Inc. Apple, Macintosh, macOS, and related trademarks and logos are the property of
             Apple Inc., registered in the U.S. and other countries. Darwin (operating system) is licensed under the
             <a href="https://opensource.apple.com/apsl/" target="_blank">Apple Public Source License (APSL)</a>.
             All other trademarks are the property of their respective owners

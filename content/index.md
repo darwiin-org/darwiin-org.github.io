@@ -2,7 +2,7 @@
 name: Home
 ---
 
-# PureDarwin
+# darw.f.e. 
 
 <div class="terminal-section">
     <img src="/icns/hexley.png" class="img-fluid layered-img" alt="Hexley Screenshot">
@@ -20,7 +20,7 @@ Got boot device = IOService:/AppleI386PlatformExpert/pci/AppleI386PCI/pci8086,70
 XATARoot/CHN0@0/AppleIntelPIIXATA/ATADeviceNub@0/IOATABlockStorageDriver/IOATABlockStorageDevice/IO
 BlockStorageDriver/QEMU HARDDISK Media/IOFDiskPartitionBSD root: disk0s1, major 1, minor 1
 jnl: b(1, 1): journal start/end pointers reset! (s 0x3b6400 e 0x5de000)
-hfs: mounted PureDarwin-10.13.3 on device b(1, 1)
+hfs: mounted darwiin on device b(1, 1)
 VM Swap Subsystem is ON
 Failed to open swap file 30
 Failed to open swap file 30
@@ -30,7 +30,7 @@ load_init_program: attempting to load /sbin/launchd
 ** Root file system
    Executing fsck_hfs (version hfs-).
 ** Checking Journaled HFS Plus volume.
-   The volume name is PureDarwin-10.13.3
+   The volume name is darwiin 
 ** Checking extents overflow file.
 ** Checking catalog file.
 ** Checking multi-linked files.
@@ -38,7 +38,7 @@ load_init_program: attempting to load /sbin/launchd
 ** Checking extended attributes file.
 ** Checking volume bitmap.
 ** Checking volume information.
-** The volume PureDarwin-10.13.3 appears to be OK.
+** The volume darwiin appears to be OK.
 hfs: Removed 0 orphaned / unlinked files and 12 directories
 /sbin/launchd: line 91: sync: command not found
 bash-3.2#
@@ -49,17 +49,15 @@ bash-3.2#</pre>
 </div>
 
 
-Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable.
+Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable. Darwin frei und erweiterbar ("darwiin", "darw.f.e.") is a solo project that fills in the gaps of PureDarwin to make it more modern, usable, and useful to end-users and developers.
 
-The project's main focus is providing useful documentation and making it easier for developers and open-source enthusiasts to engage with Darwin.
+The project's main focus is providing useful documentation and making it easier for developers and open-source enthusiasts to engage with a more modern-Darwin, more so than PureDarwin upstream.
 
 
 # Test Build
 
-The PD-17.4 Test Build is a minimal system, unlike previous versions like PureDarwin Xmas with a graphical interface. It’s distributed as a virtual machine disk (VMDK) and runs via software like QEMU.
-
 Due to the lack of proprietary macOS components, the community must develop alternatives, leaving elements like network drivers and hardware support incomplete. This build is intended for developers and open-source enthusiasts to explore Darwin development outside of macOS.
 
-<small><i>Based on Darwin 17, which corresponds to macOS High Sierra (10.13.x).</i></small>
+<small><i>Based on Darwin 18, which corresponds to macOS Mojave (10.14).</i></small>
 
-<a href="/download.html" class="btn btn-primary">Download PureDarwin (17.4 Test)</a>
+<a href="/download.html" class="btn btn-primary">Download darw.f.e. (18 Test)</a>
