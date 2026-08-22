@@ -1,0 +1,6 @@
+output/
+pdssg 
+*.exe
+*.so
+cmark/
+refs/
