@@ -1,10 +1,10 @@
 ---
-name: PureDarwin 17.4 Test Build
+name: dawsrin 18 Test Build
 ---
 
-# PureDarwin 17.4 Test Build
+# dawsrin 18 Test Build
 
-<p>July 1, 2018 - <a href="https://github.com/csekel">dawsrin^2 (erweiterbar)</a> <em>Asher Walters</em></p>
+<p>August 24, 2026 - <a href="https://github.com/csekel">dawsrin^2 (erweiterbar)</a> <em>Asher Walters</em></p>
 
 <img src="/icns/null.png" class="img-fluid">
 
