@@ -6,8 +6,8 @@ CMARK_DIR = cmark
 CMARK_BUILD_DIR = $(CMARK_DIR)/build
 CMARK_LIB = $(CMARK_BUILD_DIR)/src/libcmark.a
 
-TCL_CFLAGS ?= $(shell echo 'puts [tcl::pkgconfig get include,install]' | tclsh 2>/dev/null | sed 's/^/-I/')
-TCL_LDFLAGS ?= $(shell echo 'puts [tcl::pkgconfig get lib,install]' | tclsh 2>/dev/null | sed 's/^/-L/') -ltcl9.0
+TCL_CFLAGS  ?= $(shell pkgconf --cflags tcl90)
+TCL_LDFLAGS ?= $(shell echo 'puts [tcl::pkgconfig get lib,install]' | tclsh9.0 2>/dev/null | sed 's/^/-L/') $(shell pkgconf --libs tcl90) 
 
 ifeq ($(TCL_CFLAGS),)
     TCL_CFLAGS = -I/usr/include/tcl8.6

@@ -3,7 +3,7 @@ name: Home
 ---
 
 
-# darw.f.e. 
+# dawsrin 
 
 <div class="terminal-section">
     <img src="/icns/hexley.png" class="img-fluid layered-img" alt="Hexley Screenshot">
@@ -50,7 +50,7 @@ bash-3.2#</pre>
 </div>
 
 
-Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable. Darwin frei und erweiterbar ("darwiin", "darw.f.e.") is a solo project that fills in the gaps of PureDarwin to make it more modern, usable, and useful to end-users and developers.
+Darwin is the open source operating system from Apple that forms the base for macOS. PureDarwin is a community project that fills in the gaps to make Darwin usable. Darwin frei und erweiterbar ("darwiin", "dawsrin") is a solo project that fills in the gaps of PureDarwin to make it more modern, usable, and useful to end-users and developers.
 
 The project's main focus is providing useful documentation and making it easier for developers and open-source enthusiasts to engage with a more modern-Darwin, more so than PureDarwin upstream.
 
@@ -61,4 +61,4 @@ Due to the lack of proprietary macOS components, the community must develop alte
 
 <small><i>Based on Darwin 18, which corresponds to macOS Mojave (10.14).</i></small>
 
-<a href="/download.html" class="btn btn-primary">Download darw.f.e. (18 Test)</a>
+<a href="/download.html" class="btn btn-primary">Download dawsrin (18 Test)</a>

@@ -1,4 +1,4 @@
-# darwfe.github.io
+# dawsrin.github.io
 > Based on PureDarwin sources.
 
 ## System Dependencies
@@ -9,6 +9,8 @@
 ### Homebrew (macOS)
 	cmake guile tcl-pkg pkgconf llvm
 
+### PKG (FreeBSD)
+	pkgconf git cmake gmake tcl90
 
 ## How to Build the PureDarwin Website
 
