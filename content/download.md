@@ -4,9 +4,9 @@ name: PureDarwin 17.4 Test Build
 
 # PureDarwin 17.4 Test Build
 
-<p>July 1, 2018 - <a href="https://github.com/csekel">InSaneDarwin (csekel)</a> <em>Clifford Sekel (modified by <a href="https://github.com/darviin">Asher Walters (darviin)</a>)</em></p>
+<p>July 1, 2018 - <a href="https://github.com/csekel">dawsrin^2 (erweiterbar)</a> <em>Asher Walters</em></p>
 
-<img src="/icns/pd-17.jpg" class="img-fluid">
+<img src="/icns/null.png" class="img-fluid">
 
 
 ## Download
