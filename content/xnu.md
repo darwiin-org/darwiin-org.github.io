@@ -4,6 +4,9 @@ name: X is Not Unix
 
 <h1><a href="https://github.com/apple-oss-distributions/xnu">XNU</a></h1>
 
+<p>August 24, 2026 - <a href="https://github.com/erweiterbar">dawsrin^2 (erweiterbar)</a> <em>Asher Walters</em></p>
+
+
 <img src="/icns/xnu.png" class="img-fluid" alt="Hexley Screenshot">
 
 **XNU** ("X is Not Unix") is the computer operating system (OS) kernel developed at Apple Inc. since December 1996 for use in the Mac OS X (now macOS) operating system and released as free and open-source software as part of the Darwin OS, which, in addition to being the basis for macOS, is also the basis for iOS, iPadOS, watchOS, visionOS, and tvOS.
